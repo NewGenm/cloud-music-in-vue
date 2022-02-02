@@ -32,12 +32,5 @@ module.exports = {
       }
     }
   }
-  // devServer: {
-  //   proxy: {
-  //     'api': {
-  //       target: 'http://www.codeman.ink:3000',
-  //       pathRewrite:{'^/api':''},
-  //     }
-  //   }
-  // }
+
 }
