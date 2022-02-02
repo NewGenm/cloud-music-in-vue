@@ -21,16 +21,27 @@ module.exports = {
   },
   devServer: {
     proxy: {
+      // 'api': {
+      //   target: 'https://netease-cloud-music-api-two-woad.vercel.app/',
+      //   pathRewrite:{'^/api':''},
+      // }
       '/api': {
-        target: 'https://netease-cloud-music-api-two-woad.vercel.app/',
-        // pathRewrite:{'^/api':''},
+        // target: 'https://www.codeman.store',
+        target: 'http://www.codeman.ink:3000',
         changeOrigin: true,
         ws: true,
         pathRewrite: {
           '^/api': ''
         }
-      }
+      },
     }
   }
-
+  // devServer: {
+  //   proxy: {
+  //     'api': {
+  //       target: 'http://www.codeman.ink:3000',
+  //       pathRewrite:{'^/api':''},
+  //     }
+  //   }
+  // }
 }
