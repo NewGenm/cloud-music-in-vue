@@ -2,7 +2,7 @@ import axios from 'axios';
 export function request(url, params) {
     const instance = axios.create({
         // baseURL: 'http://localhost:8080/api',
-        baseURL: 'https://cloud-music-in-vue.vercel.app/',
+        baseURL: '/api',
         timeout: 30000,
         withCredentials: true,
     })
