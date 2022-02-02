@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3117601 */
+  src: url('iconfont.woff2?t=1643551011315') format('woff2'),
+       url('iconfont.woff?t=1643551011315') format('woff'),
+       url('iconfont.ttf?t=1643551011315') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="el-icon-add"], [class*=" el-icon-add"]/*这里有空格*/
+
+{ font-family: "iconfont" !important;
+
+font-size: 16px;
+
+font-style: normal;
+
+-webkit-font-smoothing: antialiased;
+
+-moz-osx-font-smoothing: grayscale; 
+}
+
+.el-icon-add24gl-volumeDisable:before {
+  content: "\ea0c";
+}
+
+.el-icon-add24gl-volumeMiddle:before {
+  content: "\ea0d";
+}
+
+.el-icon-addyinliangjia:before {
+  content: "\f1f6";
+}
+
+.el-icon-add24gf-pause2:before {
+  content: "\ea81";
+}
+
+.el-icon-addbofang:before {
+  content: "\e87c";
+}
+
+.el-icon-addshangyishou:before {
+  content: "\e63c";
+}
+
+.el-icon-addxiayishou:before {
+  content: "\e63e";
+}
+
+.el-icon-addxiazai:before {
+  content: "\e632";
+}
+
+.el-icon-add31zhuanfa:before {
+  content: "\e600";
+}
+
+.el-icon-addaixin:before {
+  content: "\e61f";
+}
+
+.el-icon-add24gl-play:before {
+  content: "\ea6d";
+}
+
+.el-icon-addyinle:before {
+  content: "\e625";
+}
+
+.el-icon-addmusic_playlist:before {
+  content: "\e61b";
+}
+
+.el-icon-adddianzan:before {
+  content: "\ec7f";
+}
+
