@@ -2,7 +2,8 @@ import axios from 'axios';
 export function request(url, params) {
     const instance = axios.create({
         // baseURL: 'http://localhost:8080/api',
-        baseURL: '/api',
+        // baseURL: '/api',
+        baseURL: '/backend/',
         timeout: 30000,
         withCredentials: true,
     })
