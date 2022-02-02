@@ -3,7 +3,7 @@ const path = require("path");
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
- 
+
 // 设置自定义路径
 module.exports = {
   configureWebpack: {
@@ -21,9 +21,14 @@ module.exports = {
   },
   devServer: {
     proxy: {
-      'api': {
+      '/api': {
         target: 'https://netease-cloud-music-api-two-woad.vercel.app/',
-        pathRewrite:{'^/api':''},
+        // pathRewrite:{'^/api':''},
+        changeOrigin: true,
+        ws: true,
+        pathRewrite: {
+          '^/api': ''
+        }
       }
     }
   }

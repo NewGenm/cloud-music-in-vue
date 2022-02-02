@@ -26,7 +26,7 @@ export default {
     // 拖动音量条的回调
     changeVolume(val) {
       this.volume = val;
-      console.log(this.volume);
+      // console.log(this.volume);
       this.$bus.$emit('changeVolume', val)
     },
     // 点击小喇叭的回调 （切换静音状态）
