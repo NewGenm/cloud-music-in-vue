@@ -10,7 +10,6 @@
       <el-menu-item index="/home/discovery/recommend" @click="pushRecommend">个性推荐</el-menu-item>
       <el-menu-item index="/home/discovery/musicList" @click="pushMusicList">歌单</el-menu-item>
       <el-menu-item index="/home/discovery/billboard" @click="pushBillboard">排行榜</el-menu-item>
-      <!-- <el-menu-item index="/home/discovery/singer" @click="pushSinger">歌手</el-menu-item> -->
     </el-menu>
   </div>
 </template>
@@ -49,7 +48,7 @@ export default {
 </script>
 <style lang= 'less'>
 .navBar {
-  z-index = 100;
+  z-index: 100;
   .el-menu-item {
     font-size: 16px;
   }
