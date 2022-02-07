@@ -48,7 +48,6 @@ export default {
 </script>
 <style lang= 'less'>
 .navBar {
-  z-index: 100;
   .el-menu-item {
     font-size: 16px;
   }
